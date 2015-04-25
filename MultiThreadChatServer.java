@@ -14,7 +14,7 @@ public class MultiThreadChatServer
         int portNumber = 2222;
         if (args.length < 1)
         {
-            System.out.println("Usage: java MultiThreadChatServerSync <portNumber>\n"+"Now using port number="+portNumber);
+            System.out.println("Usage: java MultiThreadChatServer <portNumber>\n"+"Now using port number="+portNumber);
         }
         else 
         {
